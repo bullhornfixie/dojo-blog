@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
-        <Home />
+        <Home />        
         <p>This blog is about ninjas</p>
         <a href={link}>Google Site</a>
       </div>
