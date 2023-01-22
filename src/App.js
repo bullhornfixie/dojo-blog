@@ -1,11 +1,14 @@
 import Navbar from './navbar';
 import Home from './home';
+import './index.css';
 
 // home page 
 
 function App() {
   const title = 'welcome to the new blog';
   const link = 'http://www.google.com';
+
+  console.log("hello")
 
   return (
     <div className="App">

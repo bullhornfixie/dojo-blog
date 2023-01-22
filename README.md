@@ -24,4 +24,14 @@ https://kentcdodds.com/blog/understanding-reacts-key-prop
 - Anytime you render an array in React, each element in array must have key prop 
 - Each key must have an id 
 
+### Props
+- Term props stands for properties 
+- Refers to properties of an object 
+- All elements created in React are JavaScript objects 
+- Pass data into a component by creating properties and values for object 
+- Props are a way to pass data from a parent to child component
+
+### Learning points 
+- Return to command line crtl + c
+
 
