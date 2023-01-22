@@ -12,6 +12,7 @@ const Home = () => {
 
   return (
     <div classname="home">
+     <BlogList blogs={blogs}/>
     </div>
   );
 }
