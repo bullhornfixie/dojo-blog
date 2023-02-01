@@ -34,4 +34,7 @@ https://kentcdodds.com/blog/understanding-reacts-key-prop
 ### Learning points 
 - Return to command line crtl + c
 
+### Lesson 12 - Reusing components
+
+
 
