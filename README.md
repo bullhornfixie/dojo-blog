@@ -34,6 +34,16 @@ https://kentcdodds.com/blog/understanding-reacts-key-prop
 ### Learning points 
 - Return to command line crtl + c
 
+### Use Effect Hooks
+- UseEffect Hook 
+- Runs on every render 
+- Typically used for fetching data
+- Dont neccessarily want to run a function on each render 
+- This is where dependencies come in 
+- Empty [] the UseEffect hook will only after 1st render
+- Use Effect function with a dependency e.g. [name] will only run when name changes 
+
+
 
 
 
