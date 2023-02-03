@@ -43,6 +43,11 @@ https://kentcdodds.com/blog/understanding-reacts-key-prop
 - Empty [] the UseEffect hook will only after 1st render
 - Use Effect function with a dependency e.g. [name] will only run when name changes 
 
+### Load JSON Server 
+```
+npx json-server --watch data/db.json --port 8000
+```
+
 
 
 
