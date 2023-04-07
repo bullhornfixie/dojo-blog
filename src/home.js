@@ -7,8 +7,16 @@ const Home = () => {
     { title: 'welcome party', body: 'loerem ipsum', author: 'yoshi', id: 2},
     { title: 'web dev top tips', bod: 'lorem ipsum', author: 'mario', id: 3}
   ]);
- 
 
+  // conditional loading message 
+  const [isPending, setIsPending] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsPending(false)
+    }, 1000)
+  })
+  
   const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id)
     setBlogs(newBlogs)
@@ -16,7 +24,8 @@ const Home = () => {
 
   return (
     <div classname="home">
-     <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
+      { isPending && <div>Loading...</div>}
+     {blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />}
     </div>
   );
 }

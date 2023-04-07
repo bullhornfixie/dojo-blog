@@ -48,6 +48,14 @@ https://kentcdodds.com/blog/understanding-reacts-key-prop
 npx json-server --watch data/db.json --port 8000
 ```
 
+### Conditional templating 
+- ```blogs && <code>```
+- By default blogs is null 
+- If blogs is true then the code on right hand side of ampersand will execute
+
+
+
+
 
 
 
