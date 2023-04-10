@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Modern React Tutorial 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started 
 
 `npm start`
 
@@ -11,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Runs the db.json server with blog data 
 
-### Full Modern React Tutorial 
+### Course Overview 
 https://www.classcentral.com/course/youtube-full-modern-react-tutorial-45814/classroom/60c82bca5e11f
 
 In this tutorial, we are building a simple blog.
