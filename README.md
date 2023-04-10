@@ -9,7 +9,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 `npx json-server --watch data/db.json --port 8000`
 
-Loads 
+Runs the db.json server with blog data 
 
 ### Full Modern React Tutorial 
 https://www.classcentral.com/course/youtube-full-modern-react-tutorial-45814/classroom/60c82bca5e11f
