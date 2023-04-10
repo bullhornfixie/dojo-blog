@@ -12,11 +12,9 @@ const Home = () => {
   const [isPending, setIsPending] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsPending(false)
-    }, 1000)
-  })
-  
+    console.log('use effect ran');
+  }, []);
+    
   const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id)
     setBlogs(newBlogs)
