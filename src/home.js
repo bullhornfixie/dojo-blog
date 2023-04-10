@@ -2,17 +2,20 @@ import { useState, useEffect } from 'react';
 import BlogList from './blogList';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState([
-    { title: 'amay new website', body: 'lorem ipsum', author: 'mario', id: 1},
-    { title: 'welcome party', body: 'loerem ipsum', author: 'yoshi', id: 2},
-    { title: 'web dev top tips', bod: 'lorem ipsum', author: 'mario', id: 3}
-  ]);
+  const [blogs, setBlogs] = useState(null);
 
   // conditional loading message 
   const [isPending, setIsPending] = useState(true)
 
   useEffect(() => {
-    console.log('use effect ran');
+    fetch('http://localhost:8000/blogs')
+      .then(res => {
+        return res.json()
+      })
+      .then((data) => {
+        console.log(data)
+        setBlogs(data)
+      })
   }, []);
     
   const handleDelete = (id) => {
@@ -22,7 +25,6 @@ const Home = () => {
 
   return (
     <div classname="home">
-      { isPending && <div>Loading...</div>}
      {blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />}
     </div>
   );
