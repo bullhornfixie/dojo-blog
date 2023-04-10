@@ -16,7 +16,25 @@ https://www.classcentral.com/course/youtube-full-modern-react-tutorial-45814/cla
 
 In this tutorial, we are building a simple blog.
 
-
+1) Introduction 
+2) Creating a React Application 
+3) Components & Templates 
+4) Dynamic Values in Templates 
+5) Multiple Components 
+6) Adding Styles
+7) Click Events 
+8) Using State (useState hook)
+9) Intro to React Dev Tools 
+10) Outputting Lists 
+11) Props 
+12) Reusing Components 
+13) Functions as Props
+14) useEffect Hook (the basics)
+15) usEffect Dependencies 
+16) Using JSON Server 
+17) Fetching Data with UseEffect 
+18) Conditional Loading Message 
+19) Handling Fetch Errors 
 
 
 
