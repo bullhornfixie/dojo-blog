@@ -38,6 +38,8 @@ In this tutorial, we are building a simple blog.
 18) Conditional Loading Message 
 19) Handling Fetch Errors 
 20) Making a Custom Hook 
+21) The React Router 
+22) Exact Match Routes 
 
 ### Key Learning Points
 - When we installing something it goes in the node modules folder and listed in `package.json`
