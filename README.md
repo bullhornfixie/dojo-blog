@@ -37,6 +37,13 @@ In this tutorial, we are building a simple blog.
 17) Fetching Data with UseEffect 
 18) Conditional Loading Message 
 19) Handling Fetch Errors 
+20) Making a Custom Hook 
+
+### Key Learning Points
+- When we installing something it goes in the node modules folder and listed in `package.json`
+- React Router allows us to create a React application with navigation across multiple pages 
+
+
 
 
 
