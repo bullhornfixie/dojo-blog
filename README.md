@@ -42,6 +42,8 @@ In this tutorial, we are building a simple blog.
 ### Key Learning Points
 - When we installing something it goes in the node modules folder and listed in `package.json`
 - React Router allows us to create a React application with navigation across multiple pages 
+- Restart server after installing new packages 
+
 
 
 
