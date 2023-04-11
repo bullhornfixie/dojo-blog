@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 const useFetch = (url) => {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(true);
-  const [Error, setError]= useState(null);
+  const [error, setError]= useState(null);
 
   useEffect(() => {
     setTimeout(() => { 
@@ -24,9 +24,9 @@ const useFetch = (url) => {
        setError(err.message);
      })
    }, 1000)
- }, []);
+ }, [url]);
 
- return { data, isPending, Error }
+ return { data, isPending, error }
 }
 
 export default useFetch;
