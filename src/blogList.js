@@ -1,9 +1,6 @@
-const BlogList = ({ blogs, title, handleDelete } ) => {
-  // pass array object component to blog via props 
-  // const blogs = props.blogs;
-  // const title = props.title;
+import { useState, useEffect } from 'react';
 
-  console.log(blogs)
+const BlogList = ({ blogs, title } ) => {
 
   return (
     <div classname="blog-list">
@@ -12,7 +9,6 @@ const BlogList = ({ blogs, title, handleDelete } ) => {
         <div className="blog-preview" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>Written by { blog.author }</p>
-          <button onClick={() => handleDelete(blog.id)}>delete blog</button>
         </div>
       ))}
     </div>
