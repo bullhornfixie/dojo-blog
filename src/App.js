@@ -28,5 +28,6 @@ function App() {
 }
 
 // when you visit "/" direct to <Home> comoponent
+// when you visit "create" direct to <Create> component
 
 export default App;

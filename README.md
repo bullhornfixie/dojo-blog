@@ -42,7 +42,8 @@ In this tutorial, we are building a simple blog.
 22) Exact Match Routes 
 
 ### Key Learning Points
-- When we installing something it goes in the node modules folder and listed in `package.json`
+- When we installing something it goes in the node modules folder 
+- Package.json provides metadata about the project; name, version, and dependencies
 - React Router allows us to create a React application with navigation across multiple pages 
 - Restart server after installing new packages 
 
