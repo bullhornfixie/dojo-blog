@@ -42,6 +42,7 @@ In this tutorial, we are building a simple blog.
 22) Exact Match Routes 
 23) Router Links 
 24) useEffect Cleanup
+25) Route Parameters
 
 ### Key Learning Points
 - When we installing something it goes in the node modules folder 
