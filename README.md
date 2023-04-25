@@ -44,6 +44,7 @@ In this tutorial, we are building a simple blog.
 24) useEffect Cleanup
 25) Route Parameters
 26) Reusing Custom Hooks 
+27) Controlled Inputs (forms)
 
 ### Key Learning Points
 - When we installing something it goes in the node modules folder 
