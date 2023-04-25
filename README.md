@@ -43,6 +43,7 @@ In this tutorial, we are building a simple blog.
 23) Router Links 
 24) useEffect Cleanup
 25) Route Parameters
+26) Reusing Custom Hooks 
 
 ### Key Learning Points
 - When we installing something it goes in the node modules folder 
